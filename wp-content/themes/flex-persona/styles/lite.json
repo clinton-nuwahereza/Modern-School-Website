@@ -1,0 +1,186 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Lite",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "duotone": [
+        {
+          "colors": ["#1d1d1d", "#fefefe"],
+          "name": "Dark Gray and White",
+          "slug": "dark-gray-and-white"
+        },
+        {
+          "colors": ["#1d1d1d", "#0089cd"],
+          "name": "Dark Gray and Blue",
+          "slug": "dark-gray-and-blue"
+        },
+        {
+          "colors": ["#0089cd", "#fefefe"],
+          "name": "Blue and White",
+          "slug": "blue-and-white"
+        },
+        {
+          "colors": ["#0089cd", "#090909"],
+          "name": "Blue and Dark Background",
+          "slug": "blue-and-dark-background"
+        },
+        {
+          "colors": ["#66ccff", "#fefefe"],
+          "name": "Light Blue and White",
+          "slug": "light-blue-and-white"
+        },
+        {
+          "colors": ["#1d1d1d", "#f5f5f5"],
+          "name": "Dark Gray and Light Background",
+          "slug": "dark-gray-and-light-background"
+        },
+        {
+          "colors": ["#0089cd", "#99ddff"],
+          "name": "Blue and Soft Blue",
+          "slug": "blue-and-soft-blue"
+        },
+        {
+          "colors": ["#090909", "#fefefe"],
+          "name": "Dark Background and White",
+          "slug": "dark-background-and-white"
+        },
+        {
+          "colors": ["#ffcc00", "#1d1d1d"],
+          "name": "Gold and Dark Gray",
+          "slug": "gold-and-dark-gray"
+        },
+        {
+          "colors": ["#663399", "#fefefe"],
+          "name": "Purple and White",
+          "slug": "purple-and-white"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(to bottom, #1d1d1d 0%, #0089cd 100%)",
+          "name": "Dark Gray to Blue Vertical",
+          "slug": "dark-gray-to-blue-vertical"
+        },
+        {
+          "gradient": "linear-gradient(to right, #0089cd 0%, #090909 100%)",
+          "name": "Blue to Dark Background Horizontal",
+          "slug": "blue-to-dark-background-horizontal"
+        },
+        {
+          "gradient": "linear-gradient(to bottom right, #1d1d1d 0%, #fefefe 100%)",
+          "name": "Dark Gray to White Diagonal",
+          "slug": "dark-gray-to-white-diagonal"
+        },
+        {
+          "gradient": "linear-gradient(to bottom, #fefefe 50%, #0089cd 50%)",
+          "name": "White to Blue Half",
+          "slug": "white-to-blue-half"
+        },
+        {
+          "gradient": "linear-gradient(to bottom, #ffcc00 0%, #1d1d1d 100%)",
+          "name": "Gold to Dark Gray",
+          "slug": "gold-to-dark-gray"
+        },
+        {
+          "gradient": "linear-gradient(to bottom right, #663399 0%, #fefefe 100%)",
+          "name": "Purple to White Diagonal",
+          "slug": "purple-to-white-diagonal"
+        },
+        {
+          "gradient": "linear-gradient(to top, #f5f5f5 0%, #1d1d1d 100%)",
+          "name": "Light Background to Dark Gray Vertical",
+          "slug": "light-background-to-dark-gray-vertical"
+        },
+        {
+          "gradient": "linear-gradient(to bottom left, #1d1d1d 0%, #66ccff 100%)",
+          "name": "Dark Gray to Light Blue Diagonal",
+          "slug": "dark-gray-to-light-blue-diagonal"
+        },
+        {
+          "gradient": "linear-gradient(to top right, #0089cd 0%, #fefefe 100%)",
+          "name": "Blue to White Diagonal",
+          "slug": "blue-to-white-diagonal"
+        }
+      ],
+      "palette": [
+        {
+          "color": "#fefefe",
+          "name": "White",
+          "slug": "white"
+        },
+        {
+          "color": "#010101",
+          "name": "Black",
+          "slug": "black"
+        },
+        {
+          "color": "#f5f5f5",
+          "name": "Background",
+          "slug": "background"
+        },
+        {
+          "color": "#090909",
+          "name": "Foreground",
+          "slug": "foreground"
+        },
+        {
+          "color": "#1d1d1d",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#0089cd",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#4d4d4d",
+          "name": "Body Text",
+          "slug": "body-text"
+        },
+        {
+          "color": "#2d2d2d",
+          "name": "Heading",
+          "slug": "heading"
+        },
+        {
+          "color": "#d2d2d2",
+          "name": "Border",
+          "slug": "border"
+        },
+        {
+          "color": "#66ccff",
+          "name": "Light Blue",
+          "slug": "light-blue"
+        },
+        {
+          "color": "#99ddff",
+          "name": "Soft Blue",
+          "slug": "soft-blue"
+        },
+        {
+          "color": "#cccccc",
+          "name": "Muted Grey",
+          "slug": "muted-grey"
+        },
+        {
+          "color": "#333333",
+          "name": "Dark Grey",
+          "slug": "dark-grey"
+        },
+        {
+          "color": "#ffcc00",
+          "name": "Gold",
+          "slug": "gold"
+        },
+        {
+          "color": "#663399",
+          "name": "Purple",
+          "slug": "purple"
+        }
+      ]
+    }
+  }
+}

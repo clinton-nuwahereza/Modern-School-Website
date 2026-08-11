@@ -1,0 +1,1176 @@
+/*
+Theme Name: School of Education
+Template: bizberg
+Text Domain: school-of-education
+Author: bizbergthemes
+Author URI: https://bizbergthemes.com/
+Theme URI: https://bizbergthemes.com/downloads/school-of-education/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: School of Education is child theme of Bizberg WordPress Theme. Theme is a clean & modern Education WordPress Theme. School of Education is suitable for any tuition, marketing, book selling, university, workshop, college, school, course hub, training center, blogging or any kind of educational institution.  Also School of Education theme is a perfect solution for your educational websites. This Free WordPress theme is fully responsive, cross-browser compatible, translation ready & SEO friendly. if you run into any problem while using our theme, you can refer to extensive documentation or contact our friendly support team.
+Tags: custom-logo,custom-menu,featured-images,threaded-comments,translation-ready,left-sidebar,right-sidebar,grid-layout,theme-options,blog,news,portfolio
+Version: 0.9
+Tested up to: 5.8
+Requires PHP: 5.6
+*/
+
+p {
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav > li > a{
+    letter-spacing: 0;
+}
+
+.default-btn {
+    transition: all ease 0.5s;
+    display: inline-block;
+    padding: 13px 25px 12px 25px;
+    position: relative;
+    background-color:#333a65;
+    color:#fff;
+    border-radius: 1px;
+    font-size: 14.5px;
+    font-weight: 700;
+}
+
+.default-btn:hover {
+	opacity: 0.8;
+	transition: all ease 0.5s;
+	color: #fff!important;
+}
+
+textarea{
+	border: 1px solid #f1f1f1;
+	padding: 10px 20px;
+}
+
+/* box hover animation */
+.hover_animation_1::before, .hover_animation_1::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #ed7800;	
+}
+
+.hover_animation_1_inner::before, .hover_animation_1_inner::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #ed7800;
+}
+
+.hover_animation_1:hover::before, .hover_animation_1:hover::after{
+  width: 100%;
+}
+.hover_animation_1:hover .hover_animation_1_inner::before, .hover_animation_1:hover .hover_animation_1_inner::after{
+  height: 100%;
+}
+
+.hover_animation_1::after{
+  left:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+.hover_animation_1::before{
+  right: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+
+.hover_animation_1 .hover_animation_1_inner::after{
+  right:0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+
+.hover_animation_1 .hover_animation_1_inner::before{
+  left: 0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+.school-section-title{
+	margin-bottom:40px;
+	position: relative;
+	text-align: center;
+}
+
+.school-section-title h4{
+	position: relative;
+    font-size: 18px!important;
+}
+
+.school-section-title h3 span{font-weight:700; color: #181d38;}
+
+.slick-track{display: flex;}
+
+/*.slick-track .slick-slide{display: flex; align-items: center; justify-content: center; height: auto;}*/
+
+#tf-partical-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.tf-ball {
+    position: absolute;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -moz-border-radius: 100%;
+    opacity: 0.2;
+}
+
+/* banner section */
+.school-banner{
+	padding: 80px 0 0; 
+	position: relative;
+    display: flex;
+    align-items: center;
+    background: url(images/big_ils_2.png) no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.school-banner::after {
+    content: '';
+    background: url(images/banner_ils.png) no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+}
+
+.school-banner .row{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+.school-banner .col-md-5{float: right;}
+
+.school-banner .banner-content{
+	position: relative;
+	z-index: 1;
+}
+
+.school-banner .banner-content h1.title {
+  color: #161b3d;
+  margin:0;
+  position: relative;
+  font-weight: 800;
+  font-size: 58px; 
+  margin-bottom: 25px;
+  margin-top: 5px;
+  line-height: 1.2;
+  max-height: 4.5em;
+}
+
+.school-banner .banner-content h1.title a{
+  background: linear-gradient(to right, #181d38, #0791be);
+  color: #181d38;
+  background-position: left 87% !important;
+  background-repeat: no-repeat !important;
+  transition: all ease-in-out 0.5s;
+  background-size: 0px 3px !important;
+  padding-bottom: 6px;
+  cursor: default;
+}
+
+.school-banner .banner-content h1.title a:hover {
+  text-decoration: none !important;
+  background-size: 100% 3px !important;
+  transition: all ease-in-out 0.5s;
+}
+
+@-webkit-keyframes border-transform {
+    0%, to {
+    border-radius: 63% 37% 54% 46%/55% 48% 52% 45%}
+14% {
+    border-radius: 40% 60% 54% 46%/49% 60% 40% 51%}
+28% {
+    border-radius: 54% 46% 38% 62%/49% 70% 30% 51%}
+42% {
+    border-radius: 61% 39% 55% 45%/61% 38% 62% 39%}
+56% {
+    border-radius: 61% 39% 67% 33%/70% 50% 50% 30%}
+70% {
+    border-radius: 50% 50% 34% 66%/56% 68% 32% 44%}
+84% {
+    border-radius: 46% 54% 50% 50%/35% 61% 39% 65%}
+}
+@keyframes border-transform {
+    0%, to {
+    border-radius: 63% 37% 54% 46%/55% 48% 52% 45%}
+14% {
+    border-radius: 40% 60% 54% 46%/49% 60% 40% 51%}
+28% {
+    border-radius: 54% 46% 38% 62%/49% 70% 30% 51%}
+42% {
+    border-radius: 61% 39% 55% 45%/61% 38% 62% 39%}
+56% {
+    border-radius: 61% 39% 67% 33%/70% 50% 50% 30%}
+70% {
+    border-radius: 50% 50% 34% 66%/56% 68% 32% 44%}
+84% {
+    border-radius: 46% 54% 50% 50%/35% 61% 39% 65%}
+}
+
+.banner-content-image{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 600px;
+	margin: 0 auto;
+	border-radius: 50%;
+	animation: border-transform 10s linear infinite alternate forwards;
+}
+
+.banner-btn {
+    margin-top: 30px;
+}
+
+.per-btn {
+  position: relative;
+  margin: auto;
+  padding: 17px 22px 18px;
+  transition: all 0.2s ease; 
+}
+.per-btn::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border-radius: 28px;
+	background: #ed7800;
+	width: 56px;
+	height: 56px;
+	transition: all 0.3s ease; 
+}
+.per-btn span {
+	position: relative;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	vertical-align: middle; 
+}
+.per-btn i {
+	position: relative;
+	top: 1px;
+	margin-left: 10px;
+	transform: translateX(-5px);
+	transition: all 0.3s ease; 
+}
+.per-btn:hover::before {
+	width: 100%;
+	background: #ed7800; 
+}
+.per-btn:hover i {transform: translateX(0); }
+.per-btn:active {transform: scale(0.96); }
+.per-btn:hover span, .per-btn:hover i{color: #fff;}
+
+/* school-featured */
+
+.school-featured{
+	padding: 80px 0 0;
+	position: relative;
+}
+
+.school-featured-main {
+    margin: 0;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
+    grid-auto-rows: 1fr;
+    grid-row-gap: 5px;
+}
+
+.school-featured-main .col-lg-3.col-md-6{
+	padding: 0;
+}
+
+.sof_services_col{
+    display: flex;
+    width: 100%;
+}
+
+.school-featured-item{
+	padding: 40px 30px;
+	transition: all ease 0.5s;
+	text-align: center;
+    width: 100%;
+}
+
+.school-featured-item i, .school-featured-item h4 a, .school-featured-item p{color: #fff;}
+
+.school-featured-item i{
+	font-size: 32px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	background: #ffffff38;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	line-height: 2.2;
+}
+
+.school-featured-item h4{font-size: 21px!important;margin-bottom: 5px;color: #fff;}
+
+.school-featured-item:hover{
+	transform: translateY(-10px);
+    transition: all ease 0.5s;
+}
+
+/* school-counter */
+
+.school-counter{
+	padding: 80px 0 0;
+	position: relative;
+	text-align: center;
+}
+
+.school-counter .d-line{
+	border-right: 2px solid #f1f1f1;
+}
+
+.school-counter .col-lg-3.col-md-6.col-sm-6.col-xs-12:last-child .d-line{
+    border: none;
+}
+
+/* school-about */
+.school-about{padding:80px 0 0; position: relative;}
+.school-about-main{
+	position: relative;
+	background-size: contain;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left center;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.school-about-main::before {
+    content: '';
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+}
+
+.school-about-content {
+    background: #181d38;
+    padding: 70px 60px;
+    margin: 40px 0;
+    border-radius: 0 20px 20px 0px;
+}
+
+.school-about-content h4, .school-category-item h5{color: #fff;}
+
+.featured-course-item h4{    
+	color: #252525;
+    line-height: 1.2 !important;
+    font-size: 24px !important;
+    margin-bottom: 15px;
+}
+.featured-course-item i{
+	vertical-align: middle;
+}
+.school-featured-course .featured-course-item a.readmore-btn{
+	font-weight: 600;
+}
+.school-about-content h4, .school-about-content h2 a{color: #fff;}
+
+.school-about-content p{margin-bottom: 30px; color: #fff;}
+.school-about-content .per-btn, 
+.school-about-content .per-btn:focus {
+    color: #fff !important;
+}
+
+/* school-category */
+
+.school-category{
+	padding: 80px 0 0;
+	position: relative;
+}
+
+.school-category-item{
+	text-align: center;
+	padding: 30px 20px;
+	transition: all ease 0.5s;
+}
+
+.school-category-item:hover{
+	transition: all ease 0.5s;
+	opacity: 0.8;
+}
+
+.school-category-item i, .school-category-item h5 a, .school-category-item p{color: #fff;}
+
+.school-category-item i{
+	font-size: 32px;
+	margin-bottom: 15px;
+	border-radius: 50%;
+	background: #ffffff38;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	line-height: 2.2;
+}
+
+/* school-featured-course */
+
+.school-featured-course{padding: 80px 0;  position: relative;}
+
+.school-featured-course:before {
+    background-position: center;
+    content: '';
+    background: url(images/shape1.png) no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.school-featured-course .row{
+	display: flex;
+	justify-content: center;
+}
+
+.featured-course-item{
+	box-shadow: 0 10px 40px 5px rgb(89 69 230 / 5%);
+	transition: all ease 0.5s;
+	margin-bottom: 30px;
+}
+
+.featured-course-item:hover{
+	transform: translateY(-10px);
+	transition: all ease 0.5s;
+}
+
+.featured-course-item:hover::before {
+    width: 100%;
+    transition: all ease 0.5s;
+}
+.featured-course-item::before {
+    content: '';
+    background: #ed7800;
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all ease 0.5s;
+}
+
+.featured-course-item .feat-img{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+.featured-course-item h4 a{color:#252525;}
+
+.featured-course-item p{margin-bottom: 10px;}
+
+.feat-inn{padding: 27px 30px 30px; background: #fff;}
+
+.featured-button{text-align: center;}
+
+/* school-partner */
+
+.school-partner{
+	background: #1d223e;
+	padding: 80px 0;
+	position: relative;
+}
+
+.school-partner .school-section-title h3{color: #fff;}
+
+.school-partner-item{text-align: center;}
+
+
+/* school-choose */
+
+.school-choose{
+	padding: 80px 0 0;
+	position: relative;
+}
+
+.school-choose::before {
+    background-position: left;
+    content: '';
+    background: url(images/bg-shape1.jpg) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    opacity: 0.6;
+}
+
+.school-choose-list {
+    box-shadow: 0 10px 40px 5px rgb(89 69 230 / 5%);
+    background: #fff;
+    margin-bottom: 30px;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.school-choose-list-inner{
+	display: -webkit-box;
+    display: flex;
+    padding: 41px 22px 45px;
+    align-items: center;
+}
+
+.school-choose-icon{margin-right:20px;}
+
+.school-choose-icon i {
+    font-size: 32px;
+    border-radius: 50%;
+    background: #ed7800;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 2.2;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.school-choose-content{position: relative; z-index: 1;}
+
+.school-choose-content h4{
+	font-size: 24px !important;
+}
+
+/* school-feedback */
+
+.school-feedback{
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 40px 0 0;
+}
+
+.school-feedback .school-feedback-main{
+	display: flex;
+	align-items: center;
+}
+
+.school-feedback-form{
+	background: #fff;
+	box-shadow: 0 10px 40px 5px rgb(89 69 230 / 5%);
+	position: relative;
+	bottom: -80px;
+}
+
+.school-feedback-form h4{
+	background:#ed7800 ;
+	padding: 10px 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.school-feedback-form form{
+	padding: 30px 30px 50px;
+	background: #fff;
+}
+
+.school-feedback-form .per-btn{margin-top: 15px; display: inline-block; margin-right:0;}
+
+/* School-pricing */
+
+.school-pricing{padding: 80px 0; background: #fafcff;}
+
+.price-box {
+    box-shadow: 0 0 30px #cccccc57;
+    text-align: center;
+    transition: all ease 0.5s;
+    position: relative;
+}
+
+.price_box_inner_wrapper{
+	padding: 40px 40px;
+	display: block;
+}
+
+.price-box::before, .price-box::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #ed7800;
+}
+
+.price_box_inner_wrapper::before, .price_box_inner_wrapper::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #ed7800;
+}
+
+.price-box .price_box_inner_wrapper::before{
+  left: 0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+.price-box:hover::before, .price-box:hover::after{
+  width: 100%;
+}
+.price-box:hover .price_box_inner_wrapper::before, .price-box:hover .price_box_inner_wrapper::after{
+  height: 100%;
+}
+
+.price-box::after{
+  left:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.price-box .price_box_inner_wrapper::after{
+  right:0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+.price-box::before{
+  right: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+.price-box .price_box_inner_wrapper::before{
+  left: 0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+
+.price-list .row{
+	display: flex;
+	justify-content: center;
+}
+
+
+.price-box .per-btn::before{
+	background: #333a65;
+}
+
+.price-box .per-btn span, .price-box .per-btn i{
+	color:#000; 
+}
+
+.price-box .per-btn:hover span, .price-box .per-btn:hover i{
+	color: #fff!important;
+}
+
+.price-box.price-recommended{
+	border-color: #ed7800;
+}
+
+.price-box.price-recommended h4, .price-box.price-recommended h2, .price-box.price-recommended .price-header small{color: #ed7800;}
+
+.price-box.price-recommended .per-btn::before{
+	background: #ed7800;
+}
+
+.price-box.price-select{
+	border-color: #F14D5D;
+}
+
+.price-box.price-select h4, .price-box.price-select h2, .price-box.price-select .price-header small{color: #F14D5D;}
+
+.price-box.price-select .per-btn::before{
+	background: #F14D5D;
+}
+
+.price-header {
+    position: relative;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed #f6f2fe;
+    padding-bottom: 15px;
+}
+
+.price-header h2 {
+    font-size: 50px!important;
+    font-weight: 700!important;
+    display: -webkit-inline-box;
+}
+
+
+.price-header h4 {
+    font-size: 21px!important;
+}
+
+.price-header small{
+	color: #333a65;	
+	font-size: 14px;
+}
+
+.price-item-list{margin-bottom: 30px;}
+
+.price-item-list ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.6;
+}
+
+/* School-team */
+
+.school-team{
+	position: relative;
+	padding: 80px 0;
+	background: #1d223e;
+}
+
+.school-team::before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ed7800;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
+}
+
+.school-team .school-section-title{max-width: 100%; margin-bottom:0;}
+
+.school-team .school-section-title h4, .school-team .school-section-title h2, .school-team .school-section-title p,
+.school-team .member_name h4, .school-team .member_name span{
+	color: #fff;
+}
+
+.school-team .school-section-title h4::before{background:#fff;}
+
+.school-team .member_name h4{
+	font-size: 18px!important;
+}
+
+/* school-call-to-action */
+
+.school-call-to-action{
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	background-attachment: fixed;
+	padding: 100px 0;
+}
+
+.school-call-to-action::after{
+	background:#1d223e;
+	content: '';
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 50%;
+	top: 0;
+}
+
+.school-call-content{position: relative; padding:0px 0px 0px 80px; z-index: 1; }
+
+.school-call-content p{margin:20px 0 40px;}
+
+.school-call-content .per-btn span, .school-call-content .per-btn i{color:#fff;}
+
+/* Testimonails */
+
+.school-testimonial{
+	padding: 80px 0;
+}
+
+.testimonial-item {
+    padding: 30px;
+    position: relative;
+    margin: 2.5rem 2rem 3rem;
+    text-align: center;
+}
+
+.testimonial-item::before, .testimonial-item::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 10px 30px 0 rgb(9 0 49 / 5%);
+    box-shadow: 0 10px 30px 0 rgb(9 0 49 / 5%);
+    z-index: -1;
+}
+
+.testimonial-item::before {
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.testimonial-item::after {
+    top: 15px;
+    left: 15px;
+    z-index: -2;
+}
+
+.testimonial-item .details p{
+    font-style: italic;
+}
+
+.testimonial-item .author-info{margin-top: 20px;}
+
+.testimonial-item img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.testimonial-item i {
+    font-size: 25px;
+    color: #162241;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 0 15px #cccccc37;
+}
+
+/* school-blog */
+
+.school-blog{
+	padding: 80px 0;
+	background: #f1f1f1;
+	position: relative;
+}
+
+.blog-item{
+	padding: 20px;
+	background: #fff;
+}
+
+.blog-list{
+	padding: 15px 0;
+	margin-bottom: 15px;
+	border-bottom: 1px dashed #f1f1f1;
+}
+
+.blog-list ul{display: flex; align-items: center; }
+
+.blog-list ul li{padding-right:10px;}
+
+.blog-list ul li:last-child{padding-right:0px;}
+
+.blog-list ul li i{color:#F56961; }
+
+/* school-contact */
+
+.school-contact{
+	padding: 80px 0;
+	position: relative;
+}
+
+.contact-info p.contact-para{margin:0 0 20px;}
+
+.contact-info .map iframe{width: 100%; border:none;}
+
+.contact-info .info-item {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.contact-info .info-icon{margin-right: 15px;}
+
+.contact-info .info-icon i{
+	font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    background: #00b6c7;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 2.6;
+    margin-top: 5px;
+}
+
+.school_of_education_homepage.home header#masthead{
+	border-bottom: none;
+}
+
+@media(max-width:1500px ){
+	.banner-content-image{
+		height: 500px;
+		width: 500px;
+	}
+}
+
+.school-counter .counter-item h3{
+	font-weight: 600 !important;
+}
+
+.school-counter .container .counter {
+	position: relative;
+}
+
+.school-about-content .about-title,
+.school-call-to-action .school-call-content h3 {
+	color: #fff;
+	font-weight: 800 !important;
+    line-height: 1.2 !important;
+    margin-bottom: 10px;
+}
+
+.school-section-title h3{
+	font-weight: 600 !important;
+    color: #120F2D;
+}
+
+.school-pricing .container{
+	position: relative;
+}
+
+.school-featured-course .container{
+    position: relative;
+}
+
+.text-left.school-section-title{
+    text-align: left;
+}
+
+.school-team .school-section-title h2{
+    line-height: 1.1 !important;
+    padding: 10px 0;
+}
+
+.school-team .row {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-item .author-title {
+    margin-top: 15px;
+}
+
+body.sidebar .testimonial-item .author-title h4 {
+    font-size: 18px;
+}
+
+.school-testimonial .testimonial-slider .slick-track {
+  margin: 0 auto;
+}
+
+.school-banner #banner_button_0 {
+    margin-right: 10px;
+}
+
+.school-call-to-action .school-call-content h4,
+.school-call-to-action .school-call-content p,
+.school-call-to-action .school-call-content h3 {
+    color: #fff;
+}
+
+@media (pointer: fine) {
+    .blog-nosidebar-1#blog.blog-lists .no-sidebars{
+        padding: 5px;
+        margin-bottom: 0px;
+    }
+}
+
+.blog-listing.no-sidebars .blog-post header.entry-header{
+    margin-top: 0 !important;
+}
+
+div#respond h3#reply-title{
+    text-transform: capitalize;
+}
+
+.school-contact .row {
+    display: flex;
+}
+
+.school-contact .row .sfe_col{
+    display: flex;
+    align-items: center;
+}
+
+.school-contact .contact-info .info-content h4 {
+    font-size: 20px !important;
+}
+
+.school-contact .contact-info .info-content p {
+    font-size: 90%;
+}
+.blog-nosidebar-1#blog .blog-post.blog-large .entry-title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+@media(max-width: 1100px){
+    .banner-content-image {
+        height: 400px;
+        width: 400px;
+    }
+
+    .school-featured-main, .school-featured-course .row, .price-list .row{
+        display: block;
+    }
+
+    .school-counter .counter-item{
+        margin-bottom: 30px;
+        border: none;
+    }
+
+    .school-about-main::before{
+        width: 0;
+    }
+
+    .school-about-content{margin: 50px;}
+}
+
+@media(max-width: 991px){
+    .school-banner .row {
+        display: block;
+    }
+    .school-banner .col-md-5{float:none;}
+
+    .price-box{margin-bottom: 30px;}
+
+    .school-banner .row, .school-team .row, .school-contact .row{display: block;}
+
+    .banner-content-image{margin-bottom: 50px;}
+
+    .school-banner .banner-content, .school-team .school-section-title, .team_member{text-align: center;}
+
+    .school-team .school-section-title, .school-contact .map{margin-bottom: 30px;}
+
+    .school-call-to-action::after {
+        background: #1d223ec9;
+        width: 100%;
+    }
+    .school-call-content{padding: 0; text-align: center;}
+
+    .school-featured-item:hover{transform: translateY(0px);}
+}
+
+@media(max-width: 639px){
+    .banner-content-image {
+        height: 300px;
+        width: 300px;
+    }
+
+    .school-about-content{padding: 30px; margin: 20px; border-radius: 20px; text-align: center;}
+
+    .school-team::before{width: 100%;}
+}
+
+.featured-post{
+    padding: 50px 0 30px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+
+.featured-post .section-title{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 20px;
+}
+
+.featured-post .section-title h2{text-transform: uppercase;}
+
+.featured-post .section-title span{color: #e91e63;}
+
+.featured-post-item{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+
+.featured-post .featured-post-image{
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all ease 0.5s;
+    overflow: hidden;
+}
+
+.featured-post-item .featured-cats {
+    background: #fff;
+    padding: 10px 20px;
+    top: 15px;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.featured-post-item:hover .featured-cats{
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+.featured-post-item .featured-cats::before{
+    background: #00b6c7;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transition: all ease 0.5s;
+    z-index: -1;
+}
+
+.featured-post-item:hover .featured-cats::before{
+    width: 100%;
+    transition: all ease 0.5s;
+}
+
+.featured-post .featured-post-content .featured-date{
+    color: #878787;
+    font-style: italic;
+    padding: 20px 0 5px;
+    display: block;
+}
+
+.featured-post .featured-post-content{position: relative; background: #fff;}
+
+.featured-post .featured-post-content h4{text-transform: uppercase;}
+
+.featured-post-image .featured-cats i {
+    padding-right: 5px;
+}
+
+.school-pricing .pricing_1 .price-box,
+.school-pricing .pricing_2 .price-box,
+.school-pricing .pricing_3 .price-box{
+    background: #fff;
+}

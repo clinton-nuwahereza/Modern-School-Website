@@ -1,0 +1,342 @@
+# Arabic (العربية) language file for Eyepress theme
+# Copyright (C) 2025 Eyepress
+# This file is distributed under the same license as the Eyepress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Eyepress 1.2.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-02 12:00+0000\n"
+"PO-Revision-Date: 2025-09-02 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Manual\n"
+
+# Common theme strings
+msgid "Home"
+msgstr "الرئيسية"
+
+msgid "About"
+msgstr "عن الموقع"
+
+msgid "Blog"
+msgstr "المدونة"
+
+msgid "Contact"
+msgstr "اتصل بنا"
+
+msgid "Services"
+msgstr "الخدمات"
+
+msgid "Portfolio"
+msgstr "معرض الأعمال"
+
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
+msgid "Continue Reading"
+msgstr "تابع القراءة"
+
+msgid "Previous"
+msgstr "السابق"
+
+msgid "Next"
+msgstr "التالي"
+
+msgid "Search"
+msgstr "البحث"
+
+msgid "Search for:"
+msgstr "البحث عن:"
+
+msgid "Search Results for:"
+msgstr "نتائج البحث عن:"
+
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذراً، لم تتطابق أي نتائج مع مصطلحات البحث الخاصة بك. يرجى المحاولة مرة أخرى باستخدام كلمات مفتاحية مختلفة."
+
+msgid "Page not found"
+msgstr "الصفحة غير موجودة"
+
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "يبدو أنه لم يتم العثور على أي شيء في هذا الموقع. ربما جرب أحد الروابط أدناه أو البحث؟"
+
+# Post/Page related
+msgid "Posted on"
+msgstr "نُشر في"
+
+msgid "by"
+msgstr "بواسطة"
+
+msgid "Posted by"
+msgstr "نشر بواسطة"
+
+msgid "Categories"
+msgstr "الفئات"
+
+msgid "Tags"
+msgstr "الوسوم"
+
+msgid "Leave a comment"
+msgstr "اترك تعليقاً"
+
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+msgid "%s Comments"
+msgstr "%s تعليقات"
+
+msgid "Edit"
+msgstr "تحرير"
+
+msgid "Author"
+msgstr "الكاتب"
+
+msgid "Date"
+msgstr "التاريخ"
+
+# Navigation
+msgid "Posts navigation"
+msgstr "التنقل بين المقالات"
+
+msgid "Older posts"
+msgstr "المقالات الأقدم"
+
+msgid "Newer posts"
+msgstr "المقالات الأحدث"
+
+msgid "Previous post:"
+msgstr "المقال السابق:"
+
+msgid "Next post:"
+msgstr "المقال التالي:"
+
+# Comments
+msgid "Comments"
+msgstr "التعليقات"
+
+msgid "Comment"
+msgstr "تعليق"
+
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك في انتظار المراجعة."
+
+msgid "Reply"
+msgstr "رد"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+msgid "Comment *"
+msgstr "التعليق *"
+
+msgid "Post Comment"
+msgstr "إرسال التعليق"
+
+# Sidebar/Widgets
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+msgid "Recent Posts"
+msgstr "المقالات الحديثة"
+
+msgid "Recent Comments"
+msgstr "التعليقات الحديثة"
+
+msgid "Archives"
+msgstr "الأرشيف"
+
+msgid "Meta"
+msgstr "معلومات"
+
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+msgid "Log out"
+msgstr "تسجيل الخروج"
+
+msgid "Entries RSS"
+msgstr "RSS المقالات"
+
+msgid "Comments RSS"
+msgstr "RSS التعليقات"
+
+msgid "WordPress.org"
+msgstr "WordPress.org"
+
+# Footer
+msgid "Copyright"
+msgstr "حقوق الطبع والنشر"
+
+msgid "All rights reserved"
+msgstr "جميع الحقوق محفوظة"
+
+msgid "Powered by"
+msgstr "مشغل بواسطة"
+
+# Form messages
+msgid "Required fields are marked"
+msgstr "الحقول المطلوبة مميزة"
+
+msgid "Your email address will not be published."
+msgstr "لن يتم نشر عنوان بريدك الإلكتروني."
+
+# Error messages
+msgid "404"
+msgstr "404"
+
+msgid "Oops! That page can't be found."
+msgstr "عذراً! لا يمكن العثور على هذه الصفحة."
+
+msgid "It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr "يبدو أننا لا نستطيع العثور على ما تبحث عنه. ربما يساعدك البحث."
+
+# Customizer
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+msgid "Header"
+msgstr "الرأس"
+
+msgid "Footer"
+msgstr "التذييل"
+
+msgid "Colors"
+msgstr "الألوان"
+
+msgid "Layout"
+msgstr "التخطيط"
+
+msgid "Typography"
+msgstr "الطباعة"
+
+# Social Media
+msgid "Follow us"
+msgstr "تابعنا"
+
+msgid "Facebook"
+msgstr "فيسبوك"
+
+msgid "Twitter"
+msgstr "تويتر"
+
+msgid "Instagram"
+msgstr "إنستغرام"
+
+msgid "LinkedIn"
+msgstr "لينكد إن"
+
+msgid "YouTube"
+msgstr "يوتيوب"
+
+# Time/Date
+msgid "January"
+msgstr "يناير"
+
+msgid "February"
+msgstr "فبراير"
+
+msgid "March"
+msgstr "مارس"
+
+msgid "April"
+msgstr "أبريل"
+
+msgid "May"
+msgstr "مايو"
+
+msgid "June"
+msgstr "يونيو"
+
+msgid "July"
+msgstr "يوليو"
+
+msgid "August"
+msgstr "أغسطس"
+
+msgid "September"
+msgstr "سبتمبر"
+
+msgid "October"
+msgstr "أكتوبر"
+
+msgid "November"
+msgstr "نوفمبر"
+
+msgid "December"
+msgstr "ديسمبر"
+
+# Theme specific strings
+msgid "Featured"
+msgstr "مميز"
+
+msgid "Sticky"
+msgstr "مثبت"
+
+msgid "Gallery"
+msgstr "المعرض"
+
+msgid "Video"
+msgstr "فيديو"
+
+msgid "Audio"
+msgstr "صوت"
+
+msgid "Quote"
+msgstr "اقتباس"
+
+msgid "Link"
+msgstr "رابط"
+
+msgid "Image"
+msgstr "صورة"
+
+msgid "Menu"
+msgstr "القائمة"
+
+msgid "Primary Menu"
+msgstr "القائمة الرئيسية"
+
+msgid "Social Menu"
+msgstr "قائمة وسائل التواصل"
+
+msgid "Footer Menu"
+msgstr "قائمة التذييل"
+
+# Eyepress specific
+msgid "Eyepress Theme"
+msgstr "قالب آي بريس"
+
+msgid "Grid Layout"
+msgstr "تخطيط الشبكة"
+
+msgid "List Layout"
+msgstr "تخطيط القائمة"
+
+msgid "Masonry Layout"
+msgstr "التخطيط المتداخل"
+
+msgid "Related Posts"
+msgstr "مقالات ذات صلة"
+
+msgid "More in"
+msgstr "المزيد في"
+
+msgid "Share this post"
+msgstr "شارك هذا المقال"
+
+msgid "Back to top"
+msgstr "العودة للأعلى"

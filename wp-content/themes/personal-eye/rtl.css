@@ -1,0 +1,172 @@
+/*
+Theme Name: Personal Eye
+Description: RTL styles for Personal Eye child theme
+*/
+
+/* Basic RTL adjustments */
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+/* Text alignment adjustments */
+.text-right {
+	text-align: left;
+}
+
+.text-left {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Menu adjustments */
+.navbar-nav .nav-item {
+	float: right;
+}
+
+.dropdown-menu {
+	text-align: right;
+}
+
+/* Content adjustments */
+.post-details h2,
+.content-area h2 a,
+.content-area h2 {
+	text-align: right;
+}
+
+.entry-meta {
+	text-align: left;
+}
+
+.entry-meta a {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+/* Widget adjustments */
+.widget-area ol,
+.widget-area ul {
+	padding-right: 0;
+}
+
+.widget-area ol li,
+.widget-area ul li {
+	margin-right: 20px;
+	margin-left: 0;
+}
+
+/* Footer adjustments */
+.copyright p {
+	text-align: center;
+}
+
+/* Social icons adjustments */
+.social-icon ul {
+	padding-right: 0;
+	float: left;
+}
+
+.social-icon ul li {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+/* Form adjustments */
+input[type="submit"] {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+/* Pagination adjustments */
+.pagination_num {
+	float: right;
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+/* Skip link adjustments */
+.skip-link {
+	left: auto;
+	right: -9999em;
+}
+
+.skip-link:focus {
+	left: auto;
+	right: 6px;
+}
+
+/* Button adjustments */
+.btn {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+/* Header adjustments */
+.site-title,
+.site-description {
+	text-align: right;
+}
+
+/* Logo adjustments */
+.logo {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+/* Navigation adjustments */
+.main-navigation ul ul {
+	left: auto;
+	right: 0;
+}
+
+.main-navigation ul ul ul {
+	left: auto;
+	right: 100%;
+}
+
+/* Post adjustments */
+.post.sticky::before {
+	left: auto;
+	right: 0;
+}
+
+/* Blockquote adjustments */
+blockquote {
+	border-left: none;
+	border-right: 4px solid #151515;
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+/* Table adjustments */
+table {
+	text-align: right;
+}
+
+th,
+td {
+	text-align: right;
+}
+
+/* Responsive adjustments */
+@media (max-width: 980px) {
+	.navbar-nav .nav-item {
+		float: none;
+		text-align: center;
+	}
+	
+	.logo {
+		float: none;
+		margin-left: 0;
+	}
+	
+	.social-icon ul {
+		float: none;
+	}
+}

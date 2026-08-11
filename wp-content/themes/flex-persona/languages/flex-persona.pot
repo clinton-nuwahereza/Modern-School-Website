@@ -1,0 +1,416 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flex Persona 1.0.0\n"
+"POT-Creation-Date: 2025-04-12 03:39+0545\n"
+"PO-Revision-Date: 2020-07-21 14:18+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x;_ex;_n;_nx;_n_noop;transate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: blocks/node_modules\n"
+
+#: functions.php:86
+msgid "Flex Persona"
+msgstr ""
+
+#: inc/wpopus.php:24
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/wpopus.php:28
+msgid "All Themes"
+msgstr ""
+
+#: inc/wpopus.php:60
+msgid ""
+"Transform your website with the power of wpOpus - The Ultimate Gutenberg "
+"Toolkit and Site Builder."
+msgstr ""
+
+#: inc/wpopus.php:61
+msgid ""
+"is supported by wpOpus plugin, making it easy to create stunning websites "
+"with advanced blocks, pre-built templates, demo imports and powerful "
+"features!"
+msgstr ""
+
+#: inc/wpopus.php:65 inc/wpopus.php:101
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/wpopus.php:67
+msgid "Learn More"
+msgstr ""
+
+#: inc/wpopus.php:102
+msgid "Installed and Activated"
+msgstr ""
+
+#: inc/wpopus.php:112
+msgid "You are not authorized to perform this action."
+msgstr ""
+
+#: inc/wpopus.php:117
+msgid "Nonce is missing."
+msgstr ""
+
+#: inc/wpopus.php:138
+msgid "wpOpus activated successfully!"
+msgstr ""
+
+#: inc/wpopus.php:162
+msgid "wpOpus installed and activated successfully!"
+msgstr ""
+
+#: patterns/404.php:12
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:16
+msgid "Oops! That page can't be found."
+msgstr ""
+
+#: patterns/404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try a search."
+msgstr ""
+
+#: patterns/banner.php:13
+msgid "We empower the journey to success for"
+msgstr ""
+
+#: patterns/banner.php:17
+msgid "Dreamers"
+msgstr ""
+
+#: patterns/banner.php:21
+msgid "Our businesses are located in"
+msgstr ""
+
+#: patterns/banner.php:28
+msgid "USA"
+msgstr ""
+
+#: patterns/banner.php:32
+msgid "California, New York"
+msgstr ""
+
+#: patterns/banner.php:40
+msgid "Europe"
+msgstr ""
+
+#: patterns/banner.php:44
+msgid "Italy, Spain"
+msgstr ""
+
+#: patterns/banner.php:52
+msgid "China"
+msgstr ""
+
+#: patterns/banner.php:56
+msgid "Beijing, Shanghai"
+msgstr ""
+
+#: patterns/call-to-action.php:11
+msgid ""
+"Let us know if you want help interpreting your brand graph specifically."
+msgstr ""
+
+#: patterns/call-to-action.php:11
+msgid "Get Your Appointment."
+msgstr ""
+
+#: patterns/clients.php:15
+msgid "More than 200+ companies trusted us worldwide"
+msgstr ""
+
+#: patterns/footer.php:15
+msgid "Flex Persona."
+msgstr ""
+
+#: patterns/footer.php:20
+msgid ""
+"Welcome to our digital agency! We specialize in empowering businesses "
+"like yours to thrive online, offering expertise in website design and "
+"development."
+msgstr ""
+
+#: patterns/footer.php:24
+msgid "info@domain.com"
+msgstr ""
+
+#: patterns/footer.php:34
+msgid "Solutions"
+msgstr ""
+
+#: patterns/footer.php:39
+msgid "Brand Development"
+msgstr ""
+
+#: patterns/footer.php:43
+msgid "Graphic Design"
+msgstr ""
+
+#: patterns/footer.php:47
+msgid "UI/UX Design"
+msgstr ""
+
+#: patterns/footer.php:54
+msgid "Resources"
+msgstr ""
+
+#: patterns/footer.php:59
+msgid "Terms"
+msgstr ""
+
+#: patterns/footer.php:63
+msgid "Blog"
+msgstr ""
+
+#: patterns/footer.php:67
+msgid "Design"
+msgstr ""
+
+#: patterns/footer.php:76
+msgid "Facebook"
+msgstr ""
+
+#: patterns/footer.php:80
+msgid "LinkedIn"
+msgstr ""
+
+#: patterns/footer.php:84
+msgid "YouTube"
+msgstr ""
+
+#: patterns/footer.php:88
+msgid "TikTok"
+msgstr ""
+
+#: patterns/footer.php:92
+msgid "Pinterest"
+msgstr ""
+
+#: patterns/footer.php:96
+msgid "Dribbble"
+msgstr ""
+
+#: patterns/footer.php:106
+#, php-format
+msgid "Copyright &copy; %1$s %2$s"
+msgstr ""
+
+#: patterns/footer.php:106
+msgid "Y"
+msgstr ""
+
+#: patterns/header.php:22
+msgid "Let's Talk"
+msgstr ""
+
+#: patterns/introduction.php:21
+msgid "About Us"
+msgstr ""
+
+#: patterns/introduction.php:25
+msgid "Who We Are"
+msgstr ""
+
+#: patterns/introduction.php:31
+msgid ""
+"We empower dreamers to thrive by providing the right tools, guidance, and "
+"opportunities."
+msgstr ""
+
+#: patterns/introduction.php:35
+msgid ""
+"Our mission is to transform aspirations into reality through innovation, "
+"support, and dedication."
+msgstr ""
+
+#: patterns/introduction.php:43
+msgid "100%"
+msgstr ""
+
+#: patterns/introduction.php:47
+msgid "WordPress Expert"
+msgstr ""
+
+#: patterns/introduction.php:55
+msgid "97.2%"
+msgstr ""
+
+#: patterns/introduction.php:59
+msgid "Successful Projects"
+msgstr ""
+
+#: patterns/latest-news.php:13
+msgid "Latest Blogs"
+msgstr ""
+
+#: patterns/portfolio.php:12
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/portfolio.php:29 patterns/portfolio.php:55
+#: patterns/portfolio.php:83 patterns/portfolio.php:109
+#: patterns/portfolio.php:135
+msgid "UI/UX"
+msgstr ""
+
+#: patterns/portfolio.php:33 patterns/portfolio.php:59
+#: patterns/portfolio.php:87 patterns/portfolio.php:113
+#: patterns/portfolio.php:139 patterns/service.php:26
+msgid "Branding"
+msgstr ""
+
+#: patterns/portfolio.php:38
+msgid "Luxury Modern Design"
+msgstr ""
+
+#: patterns/portfolio.php:64
+msgid "Smartwatch Design"
+msgstr ""
+
+#: patterns/portfolio.php:92
+msgid "Book Cover Design"
+msgstr ""
+
+#: patterns/portfolio.php:118
+msgid "Sports Watch Design"
+msgstr ""
+
+#: patterns/portfolio.php:144
+msgid "Mac Branding"
+msgstr ""
+
+#: patterns/product-sidebar.php:12
+msgid "Active Filters"
+msgstr ""
+
+#: patterns/product-sidebar.php:25
+msgid "Filter by Price"
+msgstr ""
+
+#: patterns/product-sidebar.php:37
+msgid "Filter by Stock Status"
+msgstr ""
+
+#: patterns/product-sidebar.php:49
+msgid "Filter by Attribute"
+msgstr ""
+
+#: patterns/product-sidebar.php:61
+msgid "Filter by Rating"
+msgstr ""
+
+#: patterns/product-sidebar.php:72
+msgid "Product Categories"
+msgstr ""
+
+#: patterns/service.php:12
+msgid "What We Offer"
+msgstr ""
+
+#: patterns/service.php:21
+msgid "B"
+msgstr ""
+
+#: patterns/service.php:30 patterns/service.php:48 patterns/service.php:66
+#: patterns/service.php:84
+msgid ""
+"Modern and mobile ready website that will help you reach all of your "
+"marketing."
+msgstr ""
+
+#: patterns/service.php:39
+msgid "M"
+msgstr ""
+
+#: patterns/service.php:44
+msgid "Marketing"
+msgstr ""
+
+#: patterns/service.php:57
+msgid "S"
+msgstr ""
+
+#: patterns/service.php:62
+msgid "Social Media"
+msgstr ""
+
+#: patterns/service.php:75
+msgid "W"
+msgstr ""
+
+#: patterns/service.php:80
+msgid "Web Design"
+msgstr ""
+
+#: patterns/short-call-to-action.php:19
+msgid "Call Us Directly"
+msgstr ""
+
+#: patterns/short-call-to-action.php:23
+msgid "+01 96 3548 68"
+msgstr ""
+
+#: patterns/short-call-to-action.php:32
+msgid "14+"
+msgstr ""
+
+#: patterns/short-call-to-action.php:36
+msgid "Years of"
+msgstr ""
+
+#: patterns/short-call-to-action.php:36
+msgid "Experience"
+msgstr ""
+
+#: patterns/short-call-to-action.php:44
+msgid "6K"
+msgstr ""
+
+#: patterns/short-call-to-action.php:48
+msgid "Clients"
+msgstr ""
+
+#: patterns/short-call-to-action.php:48
+msgid "Worldwide"
+msgstr ""
+
+#: patterns/testimonial.php:12
+msgid "Testimonial"
+msgstr ""
+
+#: patterns/testimonial.php:27
+msgid "Bidhya Clark"
+msgstr ""
+
+#: patterns/testimonial.php:31
+msgid "Artist and Model"
+msgstr ""
+
+#: patterns/testimonial.php:38 patterns/testimonial.php:64
+msgid ""
+"This company completely transformed my WordPress editing experience. The "
+"intuitive interface, powerful blocks, and smooth performance make it a "
+"must-have for any serious creator!"
+msgstr ""
+
+#: patterns/testimonial.php:53
+msgid "Mitju Carter Wells"
+msgstr ""
+
+#: patterns/testimonial.php:57
+msgid "Musician"
+msgstr ""

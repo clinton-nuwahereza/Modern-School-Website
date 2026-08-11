@@ -1,0 +1,421 @@
+/*
+Theme Name: High School
+Theme URI: https://rarathemes.com/wordpress-themes/high-school/
+Template: education-zone
+Author: Rara Theme
+Author URI: https://rarathemes.com/
+Description: High School is a clean, minimal and professional-looking WordPress theme for educational institutes. This theme can be used for building websites for college, school, university, LMS, training centres, Academy, Primary School, High school and Kindergarten. The theme is highly customizable with various features and personalization options. The landing page of this theme includes an attractive banner, stats counter, courses section, testimonial section, banner with Call-to-Action(CTA) button, and social media. It is SEO friendly and optimized to load fast, which makes it easy for your site to rank on Google and other search engines. Designed with visitor engagement in mind, High School is translation-ready, WooCommerce compatible, RTL script ready and much more. Check the demo at https://rarathemes.com/previews/?theme=high-school, documentation at https://docs.rarathemes.com/docs/high-school/, and get support at https://rarathemes.com/support-ticket/.
+Version: 1.0.1
+Requires PHP: 7.4
+Tested up to: 6.8
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: high-school
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+
+body.theme-style-modern {
+    --primary-color: #0073e6 !important;
+    --primary-color-rgba: 0, 115, 230 !important;
+    font-family: 'Archivo', sans-serif !important;
+}
+
+/*header layout styles*/
+
+.site-header.header-four {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.site-header.header-four .sticky-menu {
+    max-width: 1140px;
+}
+
+.site-header.header-four #mobile-header {
+    padding: 20px 0;
+    float: left;
+}
+
+.site-header.header-four #mobile-header svg {
+    color: #121212;
+}
+
+.site-header.header-four .site-branding {
+    color: #fff;
+}
+
+.site-header.header-four .site-branding a {
+    color: #fff;
+}
+
+.site-header.header-four .site-branding .site-description {
+    color: #fff;
+    margin: 0;
+}
+
+.header-four .social-networks {
+    margin: 14px 0 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.header-four .site-info-wrap {
+    display: flex;
+}
+
+.header-four .social-networks li a:focus {
+    outline: dotted 1px rgba(0, 0, 0, 0.5);
+}
+
+.header-four .social-networks li a:hover {
+    color: #7f7f7f;
+}
+
+.site-header.header-four .social-networks {
+    margin-top: 30px;
+    display: flex;
+}
+
+.site-header.header-four .social-networks li {
+    padding-left: 16px;
+    list-style: none;
+}
+
+.site-header.header-four .social-networks li:first-child {
+    padding-left: 0;
+}
+
+.site-header.header-four .header-m {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header.header-four .header-bottom {
+    background: #f4f4f4;
+    padding: 0 40px;
+}
+
+body:not(.home) .site-header.header-four {
+    position: relative;
+}
+
+body:not(.home) .site-header.header-four .site-branding .site-description,
+body:not(.home) .site-header.header-four .site-branding a {
+    color: #515151;
+}
+
+body:not(.home) .site-header.header-four .more-info span a,
+body:not(.home) .site-header.header-four .more-info svg,
+body:not(.home) .site-header.header-four .more-info {
+    color: #515151;
+}
+
+
+.site-header .more-info {
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 30px;
+}
+
+.site-header .more-info span {
+    margin-right: 18px;
+}
+
+.site-header .more-info span a {
+    color: #fff;
+}
+
+.site-header .more-info span svg {
+    margin-right: 5px;
+}
+
+.site-header .more-info span a:hover {
+    opacity: 0.8;
+}
+
+
+.site-header.header-four .main-navigation ul li a {
+    color: #515151;
+}
+
+.site-header.header-four .main-navigation ul li a:hover,
+.site-header.header-four .main-navigation ul li.current-menu-item a,
+.site-header.header-four .main-navigation ul li:hover>a {
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.site-header.header-four .main-navigation ul ul {
+    background: #F4F4F4;
+}
+
+.site-header.header-four .main-navigation ul ul li {
+    float: none;
+}
+
+.site-header.header-four .form-section {
+    padding: 12px 0;
+    position: relative;
+}
+
+.site-header.header-four .form-section .example {
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+.site-header.header-four .form-section .example {
+    position: absolute;
+    display: none;
+    top: 100%;
+    right: 0;
+    z-index: 999;
+    background: var(--primary-color);
+}
+
+.site-header.header-four .form-section .example form {
+    width: 240px;
+    height: 40px;
+    padding: 5px 5px;
+    box-shadow: 0 1px 0 0 #F4F4F4;
+    background: #F4F4F4;
+    border: 0;
+}
+
+.site-header.header-four .form-section .example form input[type="search"],
+.site-header.header-four .form-section .example form input[type="text"] {
+    height: 100%;
+    padding: 0 10px;
+    background: none;
+    width: 76%;
+    float: left;
+    color: #515151;
+}
+
+.site-header.header-four .form-section .example form input[type="submit"] {
+    float: left;
+    width: 35px;
+    background-position: 12px 5px;
+
+}
+
+.site-header .form-section svg {
+    padding: 0;
+}
+
+.site-header.header-four {
+    padding-top: 26px;
+}
+
+.site-header .header-bottom {
+    background: #f4f4f4 !important;
+}
+
+.site-header .main-navigation a {
+    font-weight: 600 !important;
+}
+
+/* footer padding */
+.site-footer {
+    padding: 58px 0 0;
+}
+
+.site-info {
+    padding: 20px 0 0;
+}
+
+body.theme-style-modern .static-banner .banner-text {
+    top: 218px !important;
+    padding: 60px 0 0;
+}
+
+
+/* -------------accessibility------------ */
+.keyboard-nav-on .site input:active,
+.keyboard-nav-on .site input:focus,
+.keyboard-nav-on .site input:hover,
+.keyboard-nav-on .site a:active,
+.keyboard-nav-on .site a:focus,
+.keyboard-nav-on .site a:hover,
+.keyboard-nav-on .site button:active,
+.keyboard-nav-on .site button:focus,
+.keyboard-nav-on .site button:hover,
+.keyboard-nav-on .site textarea:active,
+.keyboard-nav-on .site textarea:focus,
+.keyboard-nav-on .site textarea:hover,
+.keyboard-nav-on .site select:active,
+.keyboard-nav-on .site select:focus,
+.keyboard-nav-on .site select:hover {
+    outline: #000 dashed 2px !important;
+}
+
+
+/* search close */
+.site-header .btn-form-close {
+    position: absolute;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23555658' viewBox='0 0 32 32'%3E%3Cpath d='M32,2.3L29.7,0L16,13.7L2.3,0L0,2.3L13.7,16L0,29.7L2.3,32L16,18.3L29.7,32l2.3-2.3L18.3,16L32,2.3z'/%3E%3C/svg%3E");
+    top: 20px;
+    right: 47px;
+    width: 15px;
+    height: 15px;
+    padding: 0px;
+    border: 0;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    opacity: 0;
+    background-color: transparent;
+    border-radius: 0;
+    z-index: 111;
+    box-shadow: none;
+}
+
+.site-header .btn-form-close:focus {
+    opacity: 1;
+    visibility: visible;
+    outline: 1px dotted #fff;
+}
+
+.welcome-note .col h3 {
+    color: var(--primary-color);
+}
+
+body.theme-style-modern .site-header .main-navigation ul {
+    display: block !important;
+}
+
+
+/* color changes */
+
+body.theme-style-modern .featured-courses ul li .image-holder .description .learn-more:hover {
+    color: currentColor !important;
+}
+
+#primary .read-more {
+    border: 2px solid var(--primary-color);
+}
+
+.search-section form input[type="search"]::placeholder {
+    color: #fff;
+}
+
+body.theme-style-modern .site-header .main-navigation ul ul a {
+    color: #515151 !important;
+}
+
+body.theme-style-modern .site-header .main-navigation ul ul a:hover {
+    color: var(--primary-color) !important;
+}
+
+/* sidebar */
+
+.site-content {
+    padding-top: 180px;
+}
+
+.site-content .widget-area .widget ul li a:hover {
+    opacity: 1;
+}
+
+body:not(.home) .site-content {
+    padding-top: 30px;
+}
+
+body.theme-style-modern .banner .banner-text .text .desc {
+    padding-bottom: 40px !important;
+    margin: 0 !important;
+}
+
+body.theme-style-modern .main-navigation ul ul li a:hover {
+    color: var(--primary-color);
+    opacity: 1 !important;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .mobile-menu .main-navigation ul li a:hover,
+    .mobile-menu .main-navigation ul li a:focus,
+    .mobile-menu .main-navigation ul li:hover>a,
+    .mobile-menu .main-navigation ul li:focus>a,
+    .mobile-menu .main-navigation ul .current-menu-item>a,
+    .mobile-menu .main-navigation ul .current-menu-ancestor>a,
+    .mobile-menu .main-navigation ul .current_page_item>a,
+    .mobile-menu .main-navigation ul .current_page_ancestor>a {
+        color: var(--primary-color);
+    }
+}
+
+/* refinement */
+
+body.theme-style-modern .header-m .social-networks a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.site-header.header-four .social-networks a:hover svg {
+    opacity: 0.8;
+}
+
+/* box codes */
+
+body.theme-style-modern .thumb-text li .box-1 {
+    background: #7578c7;
+}
+
+body.theme-style-modern .thumb-text li .box-2 {
+    background: #f17d80;
+}
+
+body.theme-style-modern .thumb-text li .box-3 {
+    background: #2f9ebf;
+}
+
+body.theme-style-modern .thumb-text li .box-4 {
+    background: #1bc596;
+}
+
+body:not(.home) .site-header .header-four .header-m .social-networks a {
+    color: currentColor;
+}
+
+body.theme-style-modern .banner.static-banner img {
+    height: 800px;
+}
+
+@media only screen and (max-width:991px) {
+    body.theme-style-modern .banner.static-banner img {
+        height: 500px;
+    }
+
+    body.theme-style-modern .static-banner .banner-text {
+        top: 0 !important;
+        padding: 40px 0 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    body.theme-style-modern .banner.static-banner img {
+        height: 230px;
+    }
+
+    body.theme-style-modern .static-banner .banner-text {
+        padding: 32px 5px;
+    }
+
+}
+
+body.theme-style-modern.no-banner .site-header.header-four .site-branding a {
+    color: #1F212B;
+}
+
+body.theme-style-modern.no-banner .site-header.header-four .site-branding .site-description {
+    color: #8c8c8c;
+}

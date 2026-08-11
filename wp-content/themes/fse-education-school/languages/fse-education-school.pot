@@ -1,0 +1,875 @@
+# Copyright (C) 2025 Creta Themes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FSE Education School 3.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/fse-education-school\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-30T11:36:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: fse-education-school\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/block-patterns.php:11
+#: patterns/footer-columns.php:111
+msgid "FSE Education School"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.cretathemes.com/products/free-education-wordpress-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "FSE Education School is a comprehensive and modern website design solution tailored specifically for educational institutions such as schools, colleges, courses, compitative exams, tuitions, tutors, universities, educational institutions, high schools, higher education, online courses, test preparation, tutoring services, academic institutions, universities and colleges, competitive exam coaching, educational programs, distance learning, online tutoring, college courses, exam preparation, educational resources, learning platforms, academic tutoring, course providers, university degrees, skill development courses and online learning platforms. With its user-friendly features and visually appealing design, the theme aims to enhance the online presence of educational organizations and provide an engaging experience for students, parents, and educators. The theme boasts a responsive layout, ensuring that the website looks and functions seamlessly across various devices and screen sizes. It offers a variety of customizable elements, including color schemes, typography options, and layout settings, enabling administrators to align the website’s appearance with the institution’s branding. FSE Education School theme places a strong emphasis on content presentation. It offers versatile content blocks and layouts that can be easily configured to showcase courses, programs, faculty information, events, and news. Integration with multimedia elements such as images, videos, and galleries helps create an immersive experience for visitors. User interaction and engagement are core features of the theme. It provides interactive features like registration forms, contact forms, and even integration with learning management systems (LMS) to facilitate course enrollment and management. Social media integration and newsletter subscription options help institutions connect with their audience and keep them informed about updates and announcements."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Creta Themes"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://cretathemes.com/"
+msgstr ""
+
+#: functions.php:23
+msgid "https://www.cretathemes.com/products/school-wordpress-theme"
+msgstr ""
+
+#: functions.php:24
+msgid "https://pattern.cretathemes.com/fse-education-school/"
+msgstr ""
+
+#: functions.php:25
+msgid "https://pattern.cretathemes.com/free-guide/fse-education-school/"
+msgstr ""
+
+#: functions.php:26
+msgid "https://pattern.cretathemes.com/pro-guide/fse-education-school/"
+msgstr ""
+
+#: functions.php:27
+msgid "https://wordpress.org/support/theme/fse-education-school/"
+msgstr ""
+
+#: functions.php:28
+msgid "https://wordpress.org/support/theme/fse-education-school/reviews/#new-post"
+msgstr ""
+
+#: functions.php:29
+msgid "https://www.cretathemes.com/products/wordpress-theme-bundle"
+msgstr ""
+
+#: functions.php:30
+msgid "https://www.cretathemes.com/collections/wordpress-block-themes"
+msgstr ""
+
+#: functions.php:100
+msgid "Hey, Thank you for installing FSE Education School Theme!"
+msgstr ""
+
+#: functions.php:101
+msgid "Navigate Getstart"
+msgstr ""
+
+#: functions.php:102
+#: inc/get-started/get-started.php:46
+msgid "Site Editor"
+msgstr ""
+
+#: functions.php:103
+msgid "Buy Pro"
+msgstr ""
+
+#: functions.php:104
+msgid "Get Bundle"
+msgstr ""
+
+#: functions.php:106
+msgid "Dismiss"
+msgstr ""
+
+#: inc/block-patterns.php:12
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:17
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:26
+#: inc/block-styles.php:44
+#: inc/block-styles.php:53
+#: inc/block-styles.php:63
+#: inc/block-styles.php:73
+#: inc/block-styles.php:82
+msgid "Theme Style"
+msgstr ""
+
+#: inc/block-styles.php:35
+msgid "Plain"
+msgstr ""
+
+#: inc/customizer.php:84
+#: inc/get-started/get-started.php:87
+msgid "FSE Education School Pro"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "GET PRO"
+msgstr ""
+
+#: inc/get-started/get-started.php:4
+msgid "Get Started"
+msgstr ""
+
+#: inc/get-started/get-started.php:32
+msgid "Important Links"
+msgstr ""
+
+#: inc/get-started/get-started.php:34
+msgid "Free Setup Guide"
+msgstr ""
+
+#: inc/get-started/get-started.php:35
+msgid "Support Forum"
+msgstr ""
+
+#: inc/get-started/get-started.php:36
+msgid "Live Demo"
+msgstr ""
+
+#: inc/get-started/get-started.php:37
+msgid "Pro Setup Guide"
+msgstr ""
+
+#: inc/get-started/get-started.php:43
+msgid "Theme Customization"
+msgstr ""
+
+#: inc/get-started/get-started.php:44
+msgid "Effortlessly modify & maintain your site using editor."
+msgstr ""
+
+#: inc/get-started/get-started.php:51
+msgid "Need Support?"
+msgstr ""
+
+#: inc/get-started/get-started.php:52
+msgid "Go to our support forum to help you in case of queries."
+msgstr ""
+
+#: inc/get-started/get-started.php:54
+msgid "Get Support"
+msgstr ""
+
+#: inc/get-started/get-started.php:59
+msgid "Leave Us A Review"
+msgstr ""
+
+#: inc/get-started/get-started.php:60
+msgid "Are you enjoying Our Theme? We would Love to hear your Feedback."
+msgstr ""
+
+#: inc/get-started/get-started.php:62
+msgid "Rate Us"
+msgstr ""
+
+#: inc/get-started/get-started.php:68
+msgid "Why Go For Premium?"
+msgstr ""
+
+#: inc/get-started/get-started.php:70
+msgid "Advanced Customization Options"
+msgstr ""
+
+#: inc/get-started/get-started.php:71
+msgid "One-Click Demo Import"
+msgstr ""
+
+#: inc/get-started/get-started.php:72
+msgid "WooCommerce Integration & Enhanced Features"
+msgstr ""
+
+#: inc/get-started/get-started.php:73
+msgid "Performance Optimization & SEO-Ready"
+msgstr ""
+
+#: inc/get-started/get-started.php:74
+msgid "Premium Support & Regular Updates"
+msgstr ""
+
+#: inc/get-started/get-started.php:81
+msgid "Get Theme Bundle"
+msgstr ""
+
+#: inc/get-started/get-started.php:83
+#: inc/get-started/get-started.php:89
+msgid "SUMMER SALE: "
+msgstr ""
+
+#: inc/get-started/get-started.php:83
+msgid "Extra 20%"
+msgstr ""
+
+#: inc/get-started/get-started.php:83
+msgid " OFF on WordPress Theme Bundle Use Code: "
+msgstr ""
+
+#: inc/get-started/get-started.php:83
+msgid "“HEAT20”"
+msgstr ""
+
+#: inc/get-started/get-started.php:84
+msgid "Get Theme Bundle For "
+msgstr ""
+
+#: inc/get-started/get-started.php:84
+msgid "$86"
+msgstr ""
+
+#: inc/get-started/get-started.php:89
+msgid "Extra 25%"
+msgstr ""
+
+#: inc/get-started/get-started.php:89
+msgid " OFF on WordPress Block Themes! Use Code: "
+msgstr ""
+
+#: inc/get-started/get-started.php:89
+msgid "“SUMMER25”"
+msgstr ""
+
+#: inc/get-started/get-started.php:90
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/get-started/get-started.php:93
+msgid "View All Our Themes"
+msgstr ""
+
+#: inc/get-started/get-started.php:95
+msgid "View All Our Premium Themes"
+msgstr ""
+
+#: inc/icon-function.php:26
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:31
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "404 Page"
+msgstr ""
+
+#: patterns/404.php:9
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:13
+msgid "Oops! That page cannot be found"
+msgstr ""
+
+#: patterns/aboutus.php
+msgctxt "Pattern title"
+msgid "About Us"
+msgstr ""
+
+#: patterns/aboutus.php:22
+#: patterns/aboutus.php:61
+msgid "About Us"
+msgstr ""
+
+#: patterns/aboutus.php:26
+msgid "Knowledge Is Power, Information Is Liberating."
+msgstr ""
+
+#: patterns/aboutus.php:30
+#: patterns/footer-columns.php:19
+#: patterns/main-banner.php:23
+msgid "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+msgstr ""
+
+#: patterns/aboutus.php:34
+msgid "People Love To Learn With Us"
+msgstr ""
+
+#: patterns/aboutus.php:44
+msgid "90% of students see their courses through to completion."
+msgstr ""
+
+#: patterns/aboutus.php:54
+msgid "9/10 user reported better learning outcomes."
+msgstr ""
+
+#: patterns/archive-header-with-background.php
+msgctxt "Pattern title"
+msgid "Archive Header With Background"
+msgstr ""
+
+#: patterns/blog-section.php
+msgctxt "Pattern title"
+msgid "Blog Section"
+msgstr ""
+
+#: patterns/blog-section.php:10
+msgid "Blog"
+msgstr ""
+
+#: patterns/blog-section.php:14
+msgid "Our Latest News Feed"
+msgstr ""
+
+#: patterns/default-header.php
+msgctxt "Pattern title"
+msgid "Default Header"
+msgstr ""
+
+#: patterns/footer-columns.php
+msgctxt "Pattern title"
+msgid "Footer Columns"
+msgstr ""
+
+#: patterns/footer-columns.php:36
+msgid "Explore"
+msgstr ""
+
+#: patterns/footer-columns.php:54
+msgid "Useful Links"
+msgstr ""
+
+#: patterns/footer-columns.php:73
+msgid "Get In Touch"
+msgstr ""
+
+#: patterns/footer-columns.php:82
+msgid "support@example.com"
+msgstr ""
+
+#: patterns/footer-columns.php:102
+msgid "Mon - Fri 8:00 AM to 5:00 PM SUNDAY -"
+msgstr ""
+
+#: patterns/footer-columns.php:102
+msgid "CLOSED"
+msgstr ""
+
+#: patterns/footer-columns.php:111
+msgid "All Rights Reserved."
+msgstr ""
+
+#: patterns/main-banner.php
+msgctxt "Pattern title"
+msgid "Header Media"
+msgstr ""
+
+#: patterns/main-banner.php:15
+msgid "Better Learning Future With Us"
+msgstr ""
+
+#: patterns/main-banner.php:19
+msgid "Learn Everyday And Any"
+msgstr ""
+
+#: patterns/main-banner.php:19
+msgid "New Skills Online With"
+msgstr ""
+
+#: patterns/main-banner.php:19
+msgid "Top Instructor."
+msgstr ""
+
+#: patterns/main-header.php
+msgctxt "Pattern title"
+msgid "Main Header"
+msgstr ""
+
+#: patterns/main-header.php:35
+msgid "Login"
+msgstr ""
+
+#: patterns/post-header-with-background.php
+msgctxt "Pattern title"
+msgid "Post Header With Background"
+msgstr ""
+
+#: patterns/recent-blog.php
+msgctxt "Pattern title"
+msgid "Recent Blog"
+msgstr ""
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr ""
+
+#: patterns/search.php:42
+msgid "Sorry Nothing Found. Try searching..!!"
+msgstr ""
+
+#: patterns/sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/sidebar.php:10
+msgid "Search"
+msgstr ""
+
+#: patterns/sidebar.php:18
+msgid "About"
+msgstr ""
+
+#: patterns/sidebar.php:22
+msgid "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown prmontserrat took a galley of type and scrambled it to make a type specimen book."
+msgstr ""
+
+#: patterns/sidebar.php:26
+msgid "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown prmontserrat took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+msgstr ""
+
+#: patterns/sidebar.php:32
+msgid "Archive"
+msgstr ""
+
+#: patterns/sidebar.php:40
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar.php:48
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/sidebar.php:56
+msgid "Tags"
+msgstr ""
+
+#: patterns/sidebar.php:64
+msgid "Social Icons"
+msgstr ""
+
+#: patterns/sidebar.php:82
+msgid "Gallery"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Urbanist"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Noto Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Montserrat"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Lora"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Grape Nuts"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Lemon"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Upper Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Content Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Site Title"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Post Title"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Semi Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge (Display)"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and background"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Secondary and Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical foreground to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical background to foreground"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to foreground"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to foreground"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to primary"
+msgstr ""
+
+#: theme.json
+#: styles/brown.json
+#: styles/dark.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pastel.json
+#: styles/red.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+#: styles/brown.json
+#: styles/dark.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pastel.json
+#: styles/red.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+#: styles/brown.json
+#: styles/dark.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pastel.json
+#: styles/red.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+#: styles/brown.json
+#: styles/dark.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pastel.json
+#: styles/red.json
+msgctxt "Color name"
+msgid "Border Color"
+msgstr ""
+
+#: theme.json
+#: styles/brown.json
+#: styles/dark.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pastel.json
+#: styles/red.json
+msgctxt "Color name"
+msgid "Heading"
+msgstr ""
+
+#: theme.json
+#: styles/brown.json
+#: styles/dark.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pastel.json
+#: styles/red.json
+msgctxt "Color name"
+msgid "Body Text"
+msgstr ""
+
+#: theme.json
+#: styles/brown.json
+#: styles/dark.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pastel.json
+#: styles/red.json
+msgctxt "Color name"
+msgid "Tertiary Text Color"
+msgstr ""
+
+#: theme.json
+#: styles/brown.json
+#: styles/dark.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pastel.json
+#: styles/red.json
+msgctxt "Color name"
+msgid "Tertiary Bg Color"
+msgstr ""
+
+#: theme.json
+#: styles/brown.json
+#: styles/dark.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pastel.json
+#: styles/red.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: theme.json
+#: styles/brown.json
+#: styles/dark.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pastel.json
+#: styles/red.json
+msgctxt "Color name"
+msgid "Footer Bg"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Main Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer Columns"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post Content"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Page Content"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Post (Sidebar on Left)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Post (No Sidebar)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post (No Header Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Page (Sidebar on Right)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Page (Sidebar on Left)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (No Header Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog Page (Right Sidebar)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog Page (Left Sidebar)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog Page (No Sidebar)"
+msgstr ""
+
+#: styles/brown.json
+msgctxt "Style variation name"
+msgid "Brown"
+msgstr ""
+
+#: styles/dark.json
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr ""
+
+#: styles/gold.json
+msgctxt "Style variation name"
+msgid "Gold"
+msgstr ""
+
+#: styles/green.json
+msgctxt "Style variation name"
+msgid "Green"
+msgstr ""
+
+#: styles/orange.json
+msgctxt "Style variation name"
+msgid "Orange"
+msgstr ""
+
+#: styles/pastel.json
+msgctxt "Style variation name"
+msgid "Pastel"
+msgstr ""
+
+#: styles/red.json
+msgctxt "Style variation name"
+msgid "Red"
+msgstr ""

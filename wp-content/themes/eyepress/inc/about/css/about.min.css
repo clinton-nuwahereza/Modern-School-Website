@@ -1,0 +1,188 @@
+.eyepress-about-wrap .eyepress-section .dashicons{margin-top:-4px;vertical-align:middle}.eyepress-about-wrap .nav-tab{font-size:16px}.eyepress-about-wrap h1{font-size:2em}.eyepress-about-wrap h3{font-size:1.2em}.eyepress-about-wrap .wp-badge{background-image:url(../images/logo.png);background-color:#731d1d;background-size:180px auto;background-position:center;height:160px;padding:0;width:190px;border-radius:15%}.eyepress-about-wrap .quick-links a{margin-right:5px}.eyepress-about-notice .btn-dismiss{margin-left:20px}.eyepress-about-wrap .plugin-list{list-style-position:inside;list-style-type:disc}.about-wrap .feature-section{padding:40px 0 0;overflow:hidden;display:flex;flex-flow:row wrap}.about-page-action-required-box{background:#fff;border-left:4px solid #f8800c;display:block;margin-bottom:0;padding:10px 30px;position:relative;-webkit-box-shadow:0 1px 1px 0 rgba(0,0,0,.1);-moz-box-shadow:0 1px 1px 0 rgba(0,0,0,.1);box-shadow:0 1px 1px 0 rgba(0,0,0,.1)}.about-wrap .about-page-required-action-button{position:absolute;top:10px;right:10px;text-decoration:none;color:#b4b9be;border-radius:50%;cursor:pointer}.about-wrap .about-page-required-action-button:hover:before{color:#f44336}.about-wrap .about-page-action-required-box p{display:block;margin-top:0;width:100%;max-width:100%}.about-wrap .feature-section.recommended-plugins .col{background:#fff;padding:20px;margin-top:0}#free_pro .free-pro-table{border-spacing:0;width:100%}#free_pro .free-pro-table th{padding-bottom:20px}#free_pro .free-pro-table td{border-top:1px solid #ccc;padding:20px 0 25px}#free_pro .free-pro-table h3,#free_pro .free-pro-table td p{margin:0}#free_pro .free-pro-table .only-lite,#free_pro .free-pro-table .only-pro{text-align:center;width:15%}#free_pro .free-pro-table .only-lite .dashicons-before:before{color:#00a878}#free_pro .free-pro-table .only-pro .dashicons-before:before{color:#ff3439}#free_pro .free-pro-table .only-lite .dashicons-before:before,#free_pro .free-pro-table .only-pro .dashicons-before:before{font-size:35px;height:35px;width:35px}#free_pro .ti-about-page-text-center{text-align:center}.badge-action-count{padding:0 6px;display:inline-block;background-color:#d54e21;color:#fff;font-size:9px;line-height:17px;font-weight:600;margin:1px 0 0 5px;vertical-align:top;-webkit-border-radius:10px;border-radius:10px;z-index:26}.eyepress-about-wrap .badge-action-count{margin-top:5px}.about-wrap .three-col .col.plugin_box{min-width:150px;max-width:150px;float:left;text-align:center;margin-right:20px}.about-wrap .three-col .col.plugin_box img,.mge-info-desc div{margin-bottom:10px}.col.plugin_box .action_bar{margin:10px 0}a.button.button-danger{background:#c82333;border-color:#c82333;color:#fff}.about-page-action-required-box h3 a.activate-now.button.button-primary{background:#c82333;border-color:#c82333;color:#fff;text-shadow:none}a.button.button-danger:hover{background:green;border-color:green;color:#fff}.col{width:31.33%;float:left;margin-right:2%;margin-bottom:30px}@media (max-width:767px){.col{width:100;float:inherit;margin-right:0}}.mgadin-hero{padding:20px 10px;display:flex;align-items:center}.mge-info-hello{font-weight:700;font-size:16px}.mge-info-title{font-size:22px;display:block;line-height:1.5;font-weight:500}.mge-info-desc{font-size:16px;line-height:1.3;margin:10px 0 20px}.mge-info-actions,.mge-info-actions.mgerev-action{display:flex;align-items:center}.mge-info-actions a.button{display:inline-flex;align-items:center;padding:5px 20px;font-size:16px;margin-right:15px}.mge-info-actions .button i{margin-left:15px}.mge-info-image{flex:0 0 400px;overflow:hidden}.mge-info-image img{max-width:100%;min-width:200px}.mge-info-rev strong{margin:10px 0 1px;display:block;font-size:15px}.mge-info-desc div.mge-offer{color:#a30000;font-weight:700}.mge-info-rev .button{padding:5px 20px!important;display:inline-flex;justify-content:center;align-items:center;height:100%;margin-right:10px;font-size:15px!important}
+
+
+.eyepress-pro-notice {
+			background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+			border: 1px solid #dee2e6;
+			border-radius: 12px;
+			padding: 20px;
+			margin: 15px 0;
+			box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+			animation: slideInDown 0.5s ease-out;
+			position: relative;
+			overflow: hidden;
+		}
+		
+		.eyepress-pro-notice::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: -100%;
+			width: 100%;
+			height: 2px;
+			background: linear-gradient(90deg, #F9C200, #ff6b35);
+			animation: shimmer 2s infinite;
+		}
+		
+		.eyepress-notice-content {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+			flex-wrap: wrap;
+		}
+		
+		.eyepress-notice-icon {
+			flex-shrink: 0;
+		}
+		
+		.eyepress-rocket {
+			font-size: 32px;
+			animation: bounce 2s infinite;
+			display: inline-block;
+		}
+		
+		.eyepress-notice-text {
+			flex: 1;
+			min-width: 300px;
+		}
+		
+		.eyepress-notice-title {
+			margin: 0 0 8px 0;
+			font-size: 18px;
+			font-weight: 600;
+			color: #2c3e50;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+		
+		.eyepress-pro-badge {
+			background: linear-gradient(45deg, #F9C200, #ff6b35);
+			color: white;
+			padding: 2px 8px;
+			border-radius: 4px;
+			font-size: 12px;
+			font-weight: bold;
+			animation: pulse 2s infinite;
+		}
+		
+		.eyepress-notice-desc {
+			margin: 0;
+			color: #5a6c7d;
+			font-size: 14px;
+			line-height: 1.5;
+		}
+		
+		.eyepress-notice-actions {
+			display: flex;
+			gap: 12px;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+		
+		.eyepress-btn-primary {
+			background: linear-gradient(45deg, #F9C200, #ff6b35);
+			color: white;
+			padding: 10px 20px;
+			border-radius: 6px;
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 14px;
+			transition: all 0.3s ease;
+			border: none;
+			cursor: pointer;
+		}
+		
+		.eyepress-btn-primary:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 6px 20px rgba(249,194,0,0.4);
+			color: white;
+			text-decoration: none;
+		}
+		
+		.eyepress-btn-secondary {
+			background: white;
+			color: #F9C200;
+			padding: 10px 20px;
+			border: 2px solid #F9C200;
+			border-radius: 6px;
+			text-decoration: none;
+			font-weight: 500;
+			font-size: 14px;
+			transition: all 0.3s ease;
+		}
+		
+		.eyepress-btn-secondary:hover {
+			background: #F9C200;
+			color: white;
+			text-decoration: none;
+		}
+		
+		.eyepress-btn-dismiss {
+			background: transparent;
+			color: #6c757d;
+			border: 1px solid #dee2e6;
+			padding: 8px 16px;
+			border-radius: 6px;
+			font-size: 12px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+		
+		.eyepress-btn-dismiss:hover {
+			background: #f8f9fa;
+			color: #495057;
+		}
+		
+		@keyframes slideInDown {
+			from {
+				opacity: 0;
+				transform: translateY(-20px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+		
+		@keyframes shimmer {
+			0% { left: -100%; }
+			100% { left: 100%; }
+		}
+		
+		@keyframes bounce {
+			0%, 20%, 50%, 80%, 100% {
+				transform: translateY(0);
+			}
+			40% {
+				transform: translateY(-10px);
+			}
+			60% {
+				transform: translateY(-5px);
+			}
+		}
+		
+		@keyframes pulse {
+			0% { transform: scale(1); }
+			50% { transform: scale(1.05); }
+			100% { transform: scale(1); }
+		}
+		
+		@media (max-width: 768px) {
+			.eyepress-notice-content {
+				flex-direction: column;
+				text-align: center;
+			}
+			
+			.eyepress-notice-actions {
+				justify-content: center;
+				flex-direction: column;
+				width: 100%;
+			}
+			
+			.eyepress-btn-primary,
+			.eyepress-btn-secondary {
+				width: 100%;
+				text-align: center;
+			}
+		}

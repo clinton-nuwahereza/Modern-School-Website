@@ -1,0 +1,169 @@
+# <!=Copyright (C) 2025 Rara Theme
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: High School 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/high-school\n"
+"POT-Creation-Date: 2025-11-18 07:20:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.4\n"
+
+#: functions.php:88
+msgid "Demo and Documentation"
+msgstr ""
+
+#: functions.php:99
+msgid "Theme Documentation"
+msgstr ""
+
+#: functions.php:99 functions.php:101 functions.php:103 functions.php:105
+#: functions.php:107
+msgid "Click here"
+msgstr ""
+
+#: functions.php:101
+msgid "Theme Demo"
+msgstr ""
+
+#: functions.php:103
+msgid "Theme info"
+msgstr ""
+
+#: functions.php:105
+msgid "Support Ticket"
+msgstr ""
+
+#: functions.php:107
+msgid "More WordPress Themes"
+msgstr ""
+
+#: functions.php:110
+msgid "About High School"
+msgstr ""
+
+#: functions.php:144
+msgid "Address"
+msgstr ""
+
+#: functions.php:163
+msgid "Enable Search Form"
+msgstr ""
+
+#: functions.php:164
+msgid "Enable to show search form in header."
+msgstr ""
+
+#: functions.php:241
+msgid "Click here to add a menu"
+msgstr ""
+
+#: functions.php:257
+msgid "Copyright &copy;"
+msgstr ""
+
+#: functions.php:257
+msgid "Y"
+msgstr ""
+
+#: functions.php:261
+msgid "High School | Developed By"
+msgstr ""
+
+#: functions.php:262
+msgid "Rara Themes"
+msgstr ""
+
+#: functions.php:263
+msgid "Powered by %s."
+msgstr ""
+
+#: functions.php:263
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: sections/section-slider.php:8
+msgid "Read More"
+msgstr ""
+
+#: sections/section-slider.php:9
+msgid "Better Education for a Better World"
+msgstr ""
+
+#: sections/section-slider.php:10
+msgid ""
+"Maecenas perspiciatis eleifend mollitia esse etiam rem harum? Sunt "
+"incididunt, sollicitudin earum anim quidem laoreet nibh, facilisis eiusmod!"
+msgstr ""
+
+#: sections/section-slider.php:11
+msgid "Get Started Now"
+msgstr ""
+
+#: sections/section-slider.php:13
+msgid "Enquiry"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "High School"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://rarathemes.com/wordpress-themes/high-school/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"High School is a clean, minimal and professional-looking WordPress theme "
+"for educational institutes. This theme can be used for building websites "
+"for college, school, university, LMS, training centres, Academy, Primary "
+"School, High school and Kindergarten. The theme is highly customizable with "
+"various features and personalization options. The landing page of this "
+"theme includes an attractive banner, stats counter, courses section, "
+"testimonial section, banner with Call-to-Action(CTA) button, and social "
+"media. It is SEO friendly and optimized to load fast, which makes it easy "
+"for your site to rank on Google and other search engines. Designed with "
+"visitor engagement in mind, High School is translation-ready, WooCommerce "
+"compatible, RTL script ready and much more. Check the demo at "
+"https://rarathemes.com/previews/?theme=high-school, documentation at "
+"https://docs.rarathemes.com/docs/high-school/, and get support at "
+"https://rarathemes.com/support-ticket/."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rara Theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rarathemes.com/"
+msgstr ""
+
+#: functions.php:54
+#. translators: If there are characters in your language that are not supported
+#. by Archivo, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Archivo font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:60
+#. translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""

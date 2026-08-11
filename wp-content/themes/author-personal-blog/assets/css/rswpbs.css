@@ -1,0 +1,72 @@
+/*Books Slider*/
+section.blog-page-header-area {
+    background: transparent;
+    padding: 5em 0 0em 0;
+}
+
+.books-slider-active .book-slider-layout {
+    padding: 0 15px;
+}
+
+.books-slider-active .slick-list {
+    margin: 0 -15px;
+}
+
+@media (max-width: 767px) {
+    .books-slider-active .slick-list {
+        margin: 0;
+    }
+}
+
+.books-slider-wrapper .slick-arrow {
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.books-slider-wrapper .slick-arrow.slick-next {
+    position: absolute;
+    right: -60px;
+    bottom: 50%;
+    margin-bottom: 25px;
+    z-index: 55;
+}
+
+.books-slider-wrapper .slick-arrow.slick-prev {
+    position: absolute;
+    left: -60px;
+    bottom: 50%;
+    margin-bottom: 25px;
+    z-index: 55;
+}
+
+@media (max-width: 1200px) {
+    .books-slider-wrapper .slick-arrow.slick-prev {
+        left: -20px;
+        background: #ffffff;
+
+    }
+
+    .books-slider-wrapper .slick-arrow.slick-next {
+        right: -20px;
+        background: #ffffff;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .books-slider-wrapper .slick-arrow.slick-prev {
+        left: 0;
+        background: #ffffff;
+
+    }
+
+    .books-slider-wrapper .slick-arrow.slick-next {
+        right: 0;
+        background: #ffffff;
+    }
+}

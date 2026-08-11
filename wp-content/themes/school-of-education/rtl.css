@@ -1,0 +1,48 @@
+.per-btn {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 15px 22px 18px;
+}
+
+.per-btn i {
+	top: 0;
+}
+
+body .school-banner .banner-btn a:first-child{
+	margin-right: 0 !important;
+	margin-left: 10px !important;
+}
+
+.school-choose-icon {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+.school-featured-course .featured-course-item a.readmore-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+}
+
+.featured-course-item i {
+    padding-top: 3px;
+}
+
+.price-header h2{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.text-left.school-section-title {
+    text-align: right;
+}
+
+.contact-info .info-icon {
+    margin-right: 0px;
+    margin-left: 15px;
+}

@@ -1,0 +1,33 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_bosa-portfolio-bio">
+            <key name="bosa_portfolio_bio_header_phone_label" />
+            <key name="bosa_portfolio_bio_contact_phone" />
+            <key name="bosa_portfolio_bio_contact_email" />
+            <key name="bosa_portfolio_bio_contact_address" />
+            <key name="bosa_portfolio_bio_header_button_repeater" />
+            <key name="bosa_portfolio_bio_transparent_header_button_repeater" />
+            <key name="bosa_portfolio_bio_top_bar_name" />
+            <key name="bosa_portfolio_bio_responsive_header_menu_text" />
+            <key name="bosa_portfolio_bio_main_slider_button_repeater" />
+            <key name="bosa_portfolio_bio_banner_title" />
+            <key name="bosa_portfolio_bio_banner_subtitle" />
+            <key name="bosa_portfolio_bio_main_banner_buttons_repeater" />
+            <key name="bosa_portfolio_bio_highlight_posts_section_title" />
+            <key name="bosa_portfolio_bio_highlight_posts_section_description" />
+            <key name="bosa_portfolio_bio_latest_posts_section_title" />
+            <key name="bosa_portfolio_bio_latest_posts_section_description" />
+            <key name="bosa_portfolio_bio_feature_posts_section_title" />
+            <key name="bosa_portfolio_bio_feature_posts_section_description" />
+            <key name="bosa_portfolio_bio_blog_page_button_repeater" />
+            <key name="bosa_portfolio_bio_single_post_author_title" />
+            <key name="bosa_portfolio_bio_related_posts_title" />
+            <key name="bosa_portfolio_bio_woocommerce_sale_badge_text" />
+            <key name="bosa_portfolio_bio_woocommerce_sale_badge_percent" />
+            <key name="bosa_portfolio_bio_project_label_one" />
+            <key name="bosa_portfolio_bio_project_label_two" />
+            <key name="bosa_portfolio_bio_project_label_three" />
+            <key name="bosa_portfolio_bio_follower_title" />
+        </key>
+    </admin-texts>
+</wpml-config>

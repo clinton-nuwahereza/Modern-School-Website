@@ -1,0 +1,73 @@
+.customize-control-kirki-radio-buttonset .buttonset .switch-label{
+	margin: 2px;
+}
+
+h2.settings-section-separator {
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+h2.social-design.settings-section-separator {
+    background: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #50575e;
+}
+
+li#customize-control-body_typography label.customize-control-label,
+li#customize-control-h1_typography label.customize-control-label,
+li#customize-control-about_section_content_typography label.customize-control-label,
+li#customize-control-about_section_background span.customize-control-title,
+li#customize-control-page_header_background span.customize-control-title,
+li#customize-control-h2_typography label.customize-control-label,
+li#customize-control-h3_typography label.customize-control-label,
+li#customize-control-h4_typography label.customize-control-label,
+li#customize-control-h5_typography label.customize-control-label,
+li#customize-control-site_title_typography label.customize-control-label,
+li#customize-control-site_description_typography label.customize-control-label,
+li#customize-control-h6_typography label.customize-control-label,
+li#customize-control-widget_title_typography label.customize-control-label,
+li#customize-control-about_section_subtitle_typography label.customize-control-label,
+li#customize-control-header_desc_typography label.customize-control-label,
+li#customize-control-page_header_title_typography label.customize-control-label,
+li#customize-control-header_menu_typography label.customize-control-label,
+li#customize-control-header_background label.customize-control-label,
+li#customize-control-about_section_desc_typography label.customize-control-label,
+li#customize-control-post_title_typography label.customize-control-label,
+li#customize-control-single_post_title_typography label.customize-control-label,
+li#customize-control-about_section_title_typography label.customize-control-label {
+    display: block;
+    background: #fff;
+    padding: 10px;
+    line-height: normal;
+    text-align: center;
+}
+
+li#customize-control-body_typography label.customize-control-label span,
+li#customize-control-h1_typography label.customize-control-label span,
+li#customize-control-h2_typography label.customize-control-label span,
+li#customize-control-h3_typography label.customize-control-label span,
+li#customize-control-h4_typography label.customize-control-label span,
+li#customize-control-h5_typography label.customize-control-label span,
+li#customize-control-h6_typography label.customize-control-label span,
+li#customize-control-widget_title_typography label.customize-control-label span,
+li#customize-control-site_description_typography label.customize-control-label span,
+li#customize-control-site_title_typography label.customize-control-label span,
+li#customize-control-post_title_typography label.customize-control-label span,
+li#customize-control-about_section_desc_typography label.customize-control-label span,
+li#customize-control-about_section_subtitle_typography label.customize-control-label span,
+li#customize-control-about_section_social_links label.customize-control-label span,
+li#customize-control-header_background label.customize-control-label span,
+li#customize-control-page_header_background label.customize-control-label span,
+li#customize-control-single_post_title_typography label.customize-control-label span,
+li#customize-control-page_header_title_typography label.customize-control-label span,
+li#customize-control-header_title_typography label.customize-control-label span,
+li#customize-control-header_desc_typography label.customize-control-label span,
+li#customize-control-about_section_content_typography label.customize-control-label span,
+li#customize-control-header_menu_typography label.customize-control-label span,
+li#customize-control-about_section_title_typography label.customize-control-label span {
+    margin-bottom: 0;
+}
+li#customize-control-unlock_about_section_style_field label a {display: block;background: #fb4747;text-align: center;color: #fff;text-decoration: none;padding: 8px;font-weight: 700;text-transform: capitalize;letter-spacing: .51px;}
